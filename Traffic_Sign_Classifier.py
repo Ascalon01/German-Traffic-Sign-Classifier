@@ -199,8 +199,6 @@ if Vis_Data==True:
 X_train, y_train = shuffle(X_train, y_train)
 Preprocessed_data=Preprocess_Data(X_train)
 
-if Vis_Data==True:
-    Data_view(Preprocessed_data,y_train,len(np.unique(y_train)))
 
 ###############################################################################    
 ## Model Architecture
@@ -302,7 +300,7 @@ for image in os.listdir(path):
     img = cv2.resize(img, (32,32))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     new_test_images.append(img)
-new_IDs = [13, 3, 14, 27, 17]
+new_IDs = [11, 1, 12, 18, 38]
 print("Number of new testing examples: ", len(new_test_images))
 
 plt.figure(figsize=(15, 16))
