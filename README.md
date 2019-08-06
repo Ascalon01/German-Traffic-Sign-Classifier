@@ -9,7 +9,7 @@ Files in the repository
 ---
 * Code for the algorithm is contained in the [IPython notebook](./Traffic_Sign_Classifier.ipynb) as well as python script [Python Script File](./Traffic_Sign_Classifier.py)
 
-* A [writeup](./writeup.md) detailing the results of the project and describing the procedure for classifying Traffic signs.
+* A [writeup](./Writeup.md) detailing the results of the project and describing the procedure for classifying Traffic signs.
 
 Running the code
 ---
