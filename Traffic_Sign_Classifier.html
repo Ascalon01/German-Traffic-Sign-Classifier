@@ -12008,9 +12008,6 @@ div#notebook {
 
 <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span> <span class="o">=</span> <span class="n">shuffle</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="n">Preprocessed_data</span><span class="o">=</span><span class="n">Preprocess_Data</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">Vis_Data</span><span class="o">==</span><span class="kc">True</span><span class="p">:</span>
-    <span class="n">Data_view</span><span class="p">(</span><span class="n">Preprocessed_data</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">y_train</span><span class="p">)))</span>
 </pre></div>
 
 </div>
@@ -12156,7 +12153,7 @@ div#notebook {
     <span class="n">img</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">32</span><span class="p">))</span>
     <span class="n">img</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2RGB</span><span class="p">)</span>
     <span class="n">new_test_images</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
-<span class="n">new_IDs</span> <span class="o">=</span> <span class="p">[</span><span class="mi">13</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">27</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
+<span class="n">new_IDs</span> <span class="o">=</span> <span class="p">[</span><span class="mi">11</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">38</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of new testing examples: &quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">new_test_images</span><span class="p">))</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">))</span>
