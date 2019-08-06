@@ -423,7 +423,7 @@ In this step, we will use the model to predict  5 random traffic signs from the 
 Number of new testing examples:  5
 
 <figure>
- <img src="./Temp/new_images layers.png" width="1072" alt="Combined Image" />
+ <img src="./Temp/new_images.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -431,7 +431,7 @@ Number of new testing examples:  5
 
 We also have recorded the top 5 Probablities for our model prediction and they are as follows,
 <figure>
- <img src="./Temp/Output layers.png" width="1072" alt="Combined Image" />
+ <img src="./Temp/Output.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
